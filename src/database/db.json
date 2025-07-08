@@ -1,0 +1,32 @@
+{
+    "users":[
+        {
+            "name": "zain",
+            "username": "zain",
+            "email": ".gamilcomm",
+            "phone": "123454565",
+            "id": 1
+        },
+        {
+            "name": "Ali",
+            "username": "ali123",
+            "email": "ali@gmail.com",
+            "phone": "987654321",
+            "id": 2
+        },
+        {
+            "name": "Sara",
+            "username": "sara_k",
+            "email": "sara.k@gmail.com",
+            "phone": "555123456",
+            "id": 3
+        },
+        {
+            "name": "Ahmed",
+            "username": "ahmed90",
+            "email": "ahmed90@gmail.com",
+            "phone": "444555666",
+            "id": 4
+        }
+    ]
+}

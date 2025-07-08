@@ -1,14 +1,23 @@
 import "./App.css";
 import Navbar  from "./components/Navbar";
+import Codeforinterview from "./components/Codeforinterview";
+import AddUser from "./components/AddUser.";
+import AllUser from "./components/AllUser";
 
+import { BrowserRouter , Route, Routes} from "react-router-dom";
 
 
 function App() {
   return (
-   <div className="App">
+   <BrowserRouter className="App">
     <Navbar />
+    <Routes>
+   <Route path="/" element={<Codeforinterview />} />
+   <Route path="/add" element={<AddUser />} /> 
+   <Route path="/all" element= {<AllUser />} />
+    </Routes>
 
-   </div>
+   </BrowserRouter>
   );
 }
 
