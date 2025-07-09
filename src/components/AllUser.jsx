@@ -1,1 +1,12 @@
-// This file is not needed. Use AllUsers.jsx for displaying all users.
+
+
+
+
+const AllUser = () => {
+    return (
+        <p>hello AllUser</p>
+    )
+}
+
+
+export default AllUser;

@@ -5,6 +5,7 @@ import AddUser from "./components/AddUser.";
 import AllUser from "./components/AllUser";
 
 import { BrowserRouter , Route, Routes} from "react-router-dom";
+import AllUsers from "./components/AllUsers";
 
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
     <Routes>
    <Route path="/" element={<Codeforinterview />} />
    <Route path="/add" element={<AddUser />} /> 
-   <Route path="/all" element= {<AllUser />} />
+   <Route path="/all" element= {<AllUsers />} />
     </Routes>
 
    </BrowserRouter>
